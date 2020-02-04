@@ -1,0 +1,27 @@
+{
+  "name": "sneakers-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "BOT_TOKEN=1088780336:AAHkbqKVymdf3aTukkkoj58QyzjGWOb4Oi4 node ./src/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rofl3228/sneakers-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rofl3228/sneakers-bot/issues"
+  },
+  "homepage": "https://github.com/rofl3228/sneakers-bot#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "mongoose": "^5.8.11",
+    "simple-node-logger": "^18.12.24",
+    "telegraf": "^3.36.0",
+    "telegraf-i18n": "^6.6.0"
+  }
+}
